@@ -51,7 +51,7 @@ engine = torchreid.engine.ImageTripletEngine(
 )
 
 engine.run(
-        save_dir='log2/upper_bound/source_' + source + '_target_' + target,
+        save_dir='log/upper_bound/source_' + source + '_target_' + target,
         max_epoch=30,
         eval_freq=10,
         print_freq=10,
