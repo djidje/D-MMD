@@ -6,9 +6,9 @@ target = 'msmt17'
 
 batch_size = 32
 
-path_market1501 = '/export/livia/home/vision/dmekhazni/pytorch_test/log/market1501/market1501_to_market1501/model.pth.tar-30'
-path_dukemtmcreid = '/export/livia/home/vision/dmekhazni/pytorch_test/log/dukemtmcreid/dukemtmcreid_to_dukemtmcreid/model.pth.tar-30'
-path_msmt17 = '/export/livia/home/vision/dmekhazni/pytorch_test/log/msmt17/msmt17_to_msmt17'
+path_market1501 = 'log/market1501/market1501_to_market1501/model.pth.tar-30'
+path_dukemtmcreid = 'log/dukemtmcreid/dukemtmcreid_to_dukemtmcreid/model.pth.tar-30'
+path_msmt17 = 'log/msmt17/msmt17_to_msmt17'
 
 datamanager = torchreid.data.ImageDataManager(
         root='/export/livia/home/vision/dmekhazni/deep-person-reid/reid-data',
