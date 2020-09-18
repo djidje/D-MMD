@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@ssh://dmekhazni@turing.livia.etsmtl.ca:22/export/livia/home/vision/dmekhazni/anaconda3/envs/torchreid/bin/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/export/livia/home/vision/dmekhazni/UDA-in-the-Dissimilarity-Space-for-Person-ReID" />
+            </list>
+          </settings>
+        </remote-mappings>
+      </list>
+    </list>
+  </component>
+</project>
