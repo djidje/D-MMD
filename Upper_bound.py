@@ -11,7 +11,7 @@ path_dukemtmcreid = 'log/dukemtmcreid/dukemtmcreid_to_dukemtmcreid/model.pth.tar
 path_msmt17 = 'log/msmt17/msmt17_to_msmt17'
 
 datamanager = torchreid.data.ImageDataManager(
-        root='/export/livia/home/vision/dmekhazni/deep-person-reid/reid-data',
+        root='reid-data',
         sources=target,
         targets=target,
         height=256,
