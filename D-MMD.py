@@ -1,7 +1,7 @@
 import torchreid
 
-source = 'market1501'
-target = 'dukemtmcreid'
+source = 'dukemtmcreid'
+target = 'market1501'
 
 batch_size = 32
 
